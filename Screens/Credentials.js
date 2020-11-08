@@ -26,7 +26,7 @@ export default class Credentials extends React.Component{
      placeholder = {'Name of Student'}
      onChangeText = {(text)=>{
       this.setState({
-        name : texture(tex)
+        name : text
       })
      }}
      
